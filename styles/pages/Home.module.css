@@ -1,0 +1,173 @@
+.global {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 10px;
+}
+
+.contenuHaut {
+  display: flex;
+  flex: 3;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  min-height: 300px;
+  overflow: hidden;
+  text-overflow: clip ellipsis;
+}
+
+.contenuBas {
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50%;
+}
+
+.section {
+	margin-bottom: 20px;
+	width: 100%;
+	border: 1px solid var(--darkcolor2);
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.header {
+	padding: 20px;
+	background-color: var(--darkcolor2);
+	display: inline-flex;
+	width: 100%;
+  color: var(--texte);
+}
+
+.title {
+	display: inline-flex;
+	margin: 0;
+	text-align: left;
+	font-size: 1.25rem;
+}
+
+.strass {
+	display: inline-flex;
+  margin: 0 10px 0 auto;
+	text-align: right;
+}
+
+.content {
+	margin: 20px;
+  overflow-wrap: break-word;
+}
+.content img {
+	max-width: 100%;
+	max-height: 500px;
+}
+
+.card {
+  flex: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: clip ellipsis;
+}
+
+.horaires {
+  flex: 1;
+  border-radius: 10px;
+}
+
+.horairesTable {
+  width: 100%;
+  height: 100%;
+}
+
+.horairesHeader {
+  background-color: var(--darkcolor2);
+  color: var(--texte);
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.horairesButton {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 1rem;
+}
+.horairesButton:hover {
+  background-color: #eaeaea;
+}
+
+.cell {
+  font-size: 1rem;
+  border: 1px solid var(--darkcolor2);
+  text-align: center;
+}
+
+.formulaire {
+  font-size: 1rem;
+  background-color: var(--darkcolor2);
+  border-radius: 5px 5px 0 0;
+}
+
+.messages {
+  flex: 1;
+  max-height: 90%;
+}
+
+.messageList {
+  overflow-y: scroll;
+  max-height: 100%;
+}
+
+.message {
+  margin-top: 5px;
+  margin: 5px;
+}
+
+.author {
+  margin: 5px;
+}
+
+.msg {
+  background-color: var(--color1);
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--texte);
+  width: 200px;
+  margin: 5px;
+}
+
+.field {
+  width: 100%;
+	padding: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+	background-color: var(--main-bg-color);
+  color: var(--texte);
+  border: none;
+  font-size: 1rem;
+}
+
+.calendrier {
+  flex: 1;
+  max-height: 100%;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+/*
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+*/

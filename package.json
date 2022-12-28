@@ -1,0 +1,27 @@
+{
+  "name": "boquette",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "a11y-react-emoji": "^1.2.0",
+    "emoji-picker-react": "^3.5.1",
+    "moment": "^2.29.4",
+    "next": "12.1.5",
+    "next.js": "^1.0.3",
+    "react": "18.0.0",
+    "react-big-calendar": "^1.5.0",
+    "react-dom": "18.0.0",
+    "suneditor": "^2.43.14",
+    "suneditor-react": "^3.4.1"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  }
+}

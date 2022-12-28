@@ -1,0 +1,44 @@
+.global {
+	width: 100%;
+}
+
+.grid {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	margin: 10px;
+	display: inline-table;
+	padding: 5px;
+	color: inherit;
+	transition: border-color 0.15s ease;
+	border: 1px solid var(--darkcolor2);
+	border-radius: 5px;
+	text-align: center;
+	font-size: 30px;
+}
+.card:hover {
+	border-color: #0070f3;
+}
+
+.image {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.title {
+	margin: 0;
+	padding: 5px;
+}
+
+.prix {
+	margin: 0;
+	padding: 5px;
+}
+
+.quantite {
+	margin: 0;
+	padding: 5px;
+}
