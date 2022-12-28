@@ -1,9 +1,0 @@
-.formulaire {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.editor {
-	margin-top: 20px;
-}
