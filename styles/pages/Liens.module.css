@@ -1,0 +1,37 @@
+.global {
+	width: 100%;
+}
+
+.section {
+	margin-bottom: 20px;
+	width: 100%;
+	border: 1px solid var(--darkcolor2);
+  	border-radius: 5px;
+}
+
+.header {
+	padding: 20px;
+	background-color: var(--darkcolor2);
+	display: inline-flex;
+	width: 100%;
+}
+
+.title {
+	display: inline-flex;
+	margin: 0px;
+	text-align: left;
+	font-size: 20px;
+}
+
+.content {
+	margin: 20px;
+	overflow-wrap: break-word;
+}
+.content img {
+	max-width: 100%;
+	max-height: 500px;
+}
+
+.sectionEdit {
+	display: inline-flex;
+}

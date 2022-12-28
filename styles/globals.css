@@ -1,0 +1,28 @@
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+*:focus{
+	outline: none
+}
+@font-face{
+    font-family: 'quicksandregular';
+    src: url('../public/font/quicksand-regular-webfont.eot');
+    src: url('../public/font/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../public/font/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../public/font/quicksand-regular-webfont.woff') format('woff'),
+         url('../public/font/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../public/font/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+}
+body,html{
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family: 'quicksandregular';
+	font-size:20px;
+	font-weight: bold;
+	width:100%
+}
+#__next{
+	height:100%
+}
+
